@@ -1,0 +1,16 @@
+{
+  "name": "nodetestjohnnyfive",
+  "version": "1.0.0",
+  "main": "arduino.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arduino": "^0.2.3",
+    "johnny-five": "^0.11.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
