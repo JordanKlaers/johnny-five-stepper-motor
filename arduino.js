@@ -20,8 +20,20 @@ five.Board().on('ready', function() {
 
 // for(let i=0;i<1000; i++){
   stepper.ccw().step({ steps: 3200}, function() {
-    console.log("done");
+    console.log("done1");
+    stepper.cw().step({ steps: 1600}, function() {
+      console.log("done2");
+      stepper.ccw().step({ steps: 800}, function() {
+        console.log("done3");
+      });
+    });
   });
+
+
+
+  // stepper.ccw().step({ steps: 800}, function() {
+  //   console.log("done");
+  // });
 
   });
   // Initialize the RGB LED
